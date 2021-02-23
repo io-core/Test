@@ -1,18 +1,10 @@
-(* begin-package-description
-The Test package manages:
-
-* Unit test definitions
-* Automatic running of tests
-
-end-package-description *)
-
 (* begin-module-use-description
-Module Test handles:
+Module Fuzz handles:
 
-* Nothing yet. Bug reporting eventually.
+* Nothing yet. Module fuzzing eventually.
 
 end-module-use-description *)
-MODULE Test; 
+MODULE Fuzz; 
   IMPORT SYSTEM;
 
   CONST 
@@ -31,4 +23,4 @@ MODULE Test;
 
 
 
-END Test.
+END Fuzz.

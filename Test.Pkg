@@ -5,3 +5,5 @@ license,MIT,CP
 doc,stdlib,provides a testing infrastructure for Integrated Oberon.
 r,[core]/Build,v5.0.0
 p,Test.Mod,
+p,Perf.Mod,
+p,Fuzz.Mod,
