@@ -1,3 +1,7 @@
+(* begin-module-short-description
+fuzz definition, execution, and reporting
+end-module-short-description *)
+
 (* begin-module-use-description
 Module Fuzz handles:
 

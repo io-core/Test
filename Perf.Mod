@@ -1,3 +1,7 @@
+(* begin-module-short-description
+Performance instrumentation and reporting
+end-module-short-description *)
+
 (* begin-module-use-description
 Module Perf handles:
 
