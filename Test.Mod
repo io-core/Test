@@ -8,6 +8,14 @@ The Test package manages:
 * Fuzz definition
 * Fuzz testing and reporting
 
+The Test package supports the following test categories:
+
+1. Build Test -- Does it compile?
+2. Load Test -- Does it load?
+3. Function Test -- Does it produce expected outputs for specific inputs?
+4. Fuzz Test -- Does it operate in an expected manner on randomly generated inputs?
+4. Performance Test -- Does it perform as expected on specific inputs?
+
 end-package-description *)
 
 (* begin-module-short-description
