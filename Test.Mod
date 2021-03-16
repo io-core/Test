@@ -16,6 +16,16 @@ The Test package supports the following test categories:
 4. Fuzz Test -- Does it operate in an expected manner on randomly generated inputs?
 4. Performance Test -- Does it perform as expected on specific inputs?
 
+Build tests show compilation errors.
+
+Load tests verify compatibility with installed module binaries.
+
+Function tests include module unit tests, integration tests, and regression tests.
+
+Fuzz tests expand the envelope of function tests.
+
+Performance tests benchmark and profile the execution of module code.
+
 end-package-description *)
 
 (* begin-module-short-description
