@@ -49,12 +49,58 @@ MODULE Test;
 
   (* begin-procedure-description
 ---
-**Foo** is a placeholder
+**Build** performs a build test of a module.
   end-procedure-description *)
-  PROCEDURE Foo;
+  PROCEDURE Build*;
   BEGIN 
-  END Foo;
+  END Build;
 
+  (* begin-procedure-description
+---
+**Load** performs a load test of a module.
+  end-procedure-description *)
+  PROCEDURE Load*;
+  BEGIN 
+  END Load;
 
+  (* begin-procedure-description
+---
+**Quick** performs quick tests of a module's exported procedures.
+  end-procedure-description *)
+  PROCEDURE Quick*;
+  BEGIN 
+  END Quick;
+
+  (* begin-procedure-description
+---
+**Benchmark** performs benchmark tests of a module's exported procedures.
+  end-procedure-description *)
+  PROCEDURE Benchmark*;
+  BEGIN 
+  END Benchmark;
+
+  (* begin-procedure-description
+---
+**Fuzz** performs fuzz tests of a module's exported procedures.
+  end-procedure-description *)
+  PROCEDURE Fuzz*;
+  BEGIN 
+  END Fuzz;
+
+  (* begin-procedure-description
+---
+**Examples** verifies the output module's exported procedures on example uses.
+  end-procedure-description *)
+  PROCEDURE Examples*;
+  BEGIN 
+  END Examples;
+
+  (* begin-procedure-description
+---
+**All** performs all of a module's tests.
+  end-procedure-description *)
+  PROCEDURE All*;
+  BEGIN 
+  END All;
 
 END Test.
