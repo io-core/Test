@@ -42,7 +42,7 @@ Module Test handles:
 
 end-module-use-description *)
 MODULE Test; 
-  IMPORT SYSTEM, Perf, Fuzz;
+  IMPORT SYSTEM, Performance, Fuzzing;
 
   CONST 
 

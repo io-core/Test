@@ -1,14 +1,14 @@
 (* begin-module-short-description
-Performance instrumentation and reporting
+fuzzing definition, execution, and reporting
 end-module-short-description *)
 
 (* begin-module-use-description
-Module Perf handles:
+Module Fuzzing handles:
 
-* Nothing yet. Performance monitoring eventually.
+* Nothing yet. Module fuzzing eventually.
 
 end-module-use-description *)
-MODULE Perf; 
+MODULE Fuzzing; 
   IMPORT SYSTEM;
 
   CONST 
@@ -27,4 +27,4 @@ MODULE Perf;
 
 
 
-END Perf.
+END Fuzzing.
