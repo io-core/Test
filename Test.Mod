@@ -26,6 +26,9 @@ Fuzz tests expand the envelope of function tests.
 
 Performance tests benchmark and profile the execution of module code.
 
+Tests for a particular "Module.Mod" are contained in a "ModuleTests.Mod" file. Tests exercise the 
+public interface of a module and may simply be not delivered or loaded in production.
+
 end-package-description *)
 
 (* begin-module-short-description
@@ -39,7 +42,7 @@ Module Test handles:
 
 end-module-use-description *)
 MODULE Test; 
-  IMPORT SYSTEM;
+  IMPORT SYSTEM, Perf, Fuzz;
 
   CONST 
 
@@ -73,11 +76,11 @@ MODULE Test;
 
   (* begin-procedure-description
 ---
-**Benchmark** performs benchmark tests of a module's exported procedures.
+**Perf** performs benchmark tests of a module's exported procedures.
   end-procedure-description *)
-  PROCEDURE Benchmark*;
+  PROCEDURE Perf*;
   BEGIN 
-  END Benchmark;
+  END Perf;
 
   (* begin-procedure-description
 ---
